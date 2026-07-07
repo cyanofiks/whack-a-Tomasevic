@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uhvati Tomaševića</title>
+<script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+<script src="game.js" defer></script>
+<style>
+body{
+    margin:0;
+    overflow:hidden;
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+#game-container{
+    width:540px;
+    height:960px;
+    background:url("background.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    position:relative;
+}
+canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    background:transparent !important;
+}
+</style>
+</head>
+<body>
+<div id="game-container"></div>
+</body>
+</html>
